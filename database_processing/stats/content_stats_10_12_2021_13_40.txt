@@ -1,0 +1,35 @@
+
+## Content Statistics
+Total CMP Records:       449955
+Total CMP Records for Pixels only: 39387
+Unique Pixels in CMPs:          4109
+Nr of different image resources requested in http_requests:  1063638
+Nr of different image resources delivered in http_responses: 900930
+
+## Count for each category of data collected from the Consent Management Platforms
+Unknown Count:       0
+Necessary Count:     80612
+Functional Count:    15895
+Analytical Count:    75241
+Advertising Count:   218622
+Unclassified Count:  59585
+Social Media Count:  0
+
+## Count for each category of data collected from the Consent Management Platforms for Pixels only
+Unknown Count:       0
+Necessary Count:     1012
+Functional Count:    57
+Analytical Count:    6362
+Advertising Count:   29200
+Unclassified Count:  2756
+Social Media Count:  0
+
+## Count for each category of data collected from the Consent Management Platforms for unique Pixels only
+Unknown Count:       0
+Necessary Count:     201
+Functional Count:    49
+Analytical Count:    327
+Advertising Count:   2205
+Unclassified Count:  1599
+Social Media Count:  0
+

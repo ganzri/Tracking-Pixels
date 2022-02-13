@@ -1,0 +1,18 @@
+2021-12-15-10:31:55 :: main :: INFO :: Executing sanity checks...
+2021-12-15-10:31:55 :: main :: INFO :: Previous backup already exists, skipping...
+2021-12-15-10:31:55 :: main :: INFO :: Executing database setup...
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/01_clean_db_tables.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/02_create_view_consent_crawl_results.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/03_create_view_visit_errors.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/04_view_failed_consent_crawls.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/10_all_interrupted_visits.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/14_view_visits_interrupted_during_consent.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/15_view_visits_interrupted_during_browse.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/21_view_consent_data_images.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/22_view_http_requests_images.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/23_view_first_request_images.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/24_view_unique_consent_pixels.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/30_category_mismatch_pixels.sql
+2021-12-15-10:31:55 :: main :: INFO :: Successfully executed script sql_commands/commands/consent_crawl_with_website.sql
+2021-12-15-10:31:56 :: main :: INFO :: Debug statistics successfully extracted.
+2021-12-15-10:36:10 :: main :: INFO :: Content Statistics successfully extracted.
