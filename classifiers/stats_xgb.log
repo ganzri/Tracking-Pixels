@@ -1,0 +1,111 @@
+2022-01-12-11:17:14 :: classifier :: INFO :: =========================================
+2022-01-12-11:17:15 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-01-12-11:17:16 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-01-12-11:17:17 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-01-13-13:34:50 :: classifier :: INFO :: =========================================
+2022-01-13-13:34:51 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-01-13-13:34:52 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-01-13-13:34:53 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-01-25-14:32:36 :: classifier :: INFO :: =========================================
+2022-01-25-14:32:36 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-01-25-14:32:37 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-01-25-14:32:38 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-01-31-14:46:01 :: classifier :: INFO :: =========================================
+2022-01-31-14:46:02 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-01-31-14:46:04 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-01-31-14:46:06 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-01-31-14:48:14 :: classifier :: INFO :: =========================================
+2022-01-31-14:48:15 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-01-31-14:48:17 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-01-31-14:48:19 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:05:13 :: classifier :: INFO :: =========================================
+2022-02-02-14:05:14 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:05:15 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:05:16 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:40:38 :: classifier :: INFO :: =========================================
+2022-02-02-14:40:39 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:40:39 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:40:40 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:41:26 :: classifier :: INFO :: =========================================
+2022-02-02-14:41:27 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:41:27 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:41:27 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:42:39 :: classifier :: INFO :: =========================================
+2022-02-02-14:42:40 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:42:40 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:42:41 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:42:58 :: classifier :: INFO :: =========================================
+2022-02-02-14:42:58 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:42:59 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:42:59 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:44:22 :: classifier :: INFO :: =========================================
+2022-02-02-14:44:23 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:44:23 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:44:24 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:44:46 :: classifier :: INFO :: =========================================
+2022-02-02-14:44:47 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:44:47 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:44:48 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:45:45 :: classifier :: INFO :: =========================================
+2022-02-02-14:45:46 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:45:46 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:45:47 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:46:30 :: classifier :: INFO :: =========================================
+2022-02-02-14:46:31 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:46:31 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:46:32 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:48:52 :: classifier :: INFO :: =========================================
+2022-02-02-14:48:53 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:48:53 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:48:54 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:49:21 :: classifier :: INFO :: =========================================
+2022-02-02-14:49:21 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:49:22 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:49:22 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:49:44 :: classifier :: INFO :: =========================================
+2022-02-02-14:49:44 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:49:45 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:49:45 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:49:55 :: classifier :: INFO :: =========================================
+2022-02-02-14:49:56 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:49:56 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:49:57 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-02-14:50:10 :: classifier :: INFO :: =========================================
+2022-02-02-14:50:10 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-02-14:50:11 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-02-14:50:11 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-08-14:18:14 :: classifier :: INFO :: =========================================
+2022-02-08-14:18:15 :: classifier.xgbstats :: INFO :: Model dumped at: xgb_booster_stats/model_dump_20220208_141814.json
+2022-02-08-14:18:15 :: classifier.xgbstats :: INFO :: Feature importance by weight dumped at: xgb_booster_stats/importance_weight_20220208_141814.csv
+2022-02-08-14:18:15 :: classifier.xgbstats :: INFO :: Feature importance by weight dumped at: xgb_booster_stats/importance_gain_20220208_141814.csv
+2022-02-08-14:18:15 :: classifier.xgbstats :: INFO :: Feature importance by weight dumped at: xgb_booster_stats/importance_cover_20220208_141814.csv
+2022-02-08-14:18:16 :: classifier.xgbstats :: INFO :: Feature importance by weight dumped at: xgb_booster_stats/importance_totalgain_20220208_141814.csv
+2022-02-08-14:18:16 :: classifier.xgbstats :: INFO :: Feature importance by weight dumped at: xgb_booster_stats/importance_totalcover_20220208_141814.csv
+2022-02-08-14:18:37 :: classifier :: INFO :: =========================================
+2022-02-08-14:18:37 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-08-14:18:38 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-08-14:18:38 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-11-14:06:28 :: classifier :: INFO :: =========================================
+2022-02-11-14:06:28 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-11-14:06:29 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-11-14:06:29 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-11-14:09:29 :: classifier :: INFO :: =========================================
+2022-02-11-14:09:30 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-11-14:09:30 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-11-14:09:31 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-11-14:09:54 :: classifier :: INFO :: =========================================
+2022-02-11-14:09:54 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-11-14:09:55 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-11-14:09:55 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-12-14:50:46 :: classifier :: INFO :: =========================================
+2022-02-12-14:50:47 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-12-14:50:47 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-12-14:50:48 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-12-15:52:16 :: classifier :: INFO :: =========================================
+2022-02-12-15:52:17 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-12-15:52:17 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-12-15:52:18 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
+2022-02-12-16:29:31 :: classifier :: INFO :: =========================================
+2022-02-12-16:29:32 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_weights.png' with type weight
+2022-02-12-16:29:33 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_gain.png' with type gain
+2022-02-12-16:29:34 :: classifier.xgbstats :: INFO :: Saved importance plot figure 'xgb_booster_stats/importance_cover.png' with type cover
