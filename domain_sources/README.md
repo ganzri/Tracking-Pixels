@@ -1,7 +1,7 @@
 # Domain Sources
 This folder contains domain sources that were used with the presence crawler.
 
-The purpose of the scripts in the folder is to collect this data and to filter duplicates.
+The purpose of the scripts in the folder is to collect this data, and to filter duplicates. Split_data and combine_sets.py can be used to split the data and recombine, if the crawl should not be run on all the data at once.
 
 ## Folder Contents
 * `Tranco_Lists/`: Contains the Tranco domain ranking as of Dez 2021 (and subsets of the lists)

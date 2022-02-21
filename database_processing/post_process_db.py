@@ -223,7 +223,11 @@ def extract_content_statistics(conn: sqlite3.Connection, stats_path: str) -> Non
                 crcounts.append(int(cur.fetchone()["count"]))
 
             #count number of unique pixels (unique meaning distinct (name, domain) pair from 
-            #consent declaration)
+            #consent declaration) 
+            #Note later in the Thesis I used a different def. for unique: unique domain and path, because
+            #this definition here only works for pixels with a consent notice linked to them. Undeclared pixels
+            #and images do not have a name
+            
             cur.execute("SELECT COUNT() AS count FROM view_unique_consent_pixels;")
             unique_pix_declarations = int(cur.fetchone()["count"])
             
