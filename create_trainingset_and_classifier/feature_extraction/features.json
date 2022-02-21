@@ -1,0 +1,178 @@
+{
+	"per_pixel_features": 
+	[
+		{
+			"name": "top_netloc",
+			"desc": "One-hot vector where the k-th entry indicates whether the pixel domain matches the k-th domain. The ranking is obtained from the external csv file.",
+			"function": "feature_top_domains",
+			"setup": "setup_top_domains",
+			"source": "resources/top_domains.csv",
+			"enabled": true,
+			"vector_size": 500,
+			"args": {}
+		},
+		{
+			"name": "top_query",
+			"desc": "multiple-hot vector where the k-th entry indicates whether the url of the pixel contains query parameter k. The ranking is optained from an external csv file.",
+			"function": "feature_top_query_param",
+			"setup": "setup_top_query_param",
+			"source": "resources/top_query_param.csv",
+			"enabled": true,
+			"vector_size": 500,
+			"args":{}
+		},
+		{
+			"name": "top_path",
+			"desc": "multiple-hot vector where the k-th entry indicates presence (1.0) or absence (0.0) of the k-th most common 'word' in the path of the url. The ranking for common words in paths is obtained from an external csv file.",
+			"function": "feature_top_path_piece",
+			"setup": "setup_top_path_piece",
+			"source": "resources/top_path_pieces.csv",
+			"enabled": true,
+			"vector_size": 500,
+			"args": {}
+		},
+		{
+			"name": "top_t_o",
+			"desc": "one-hot vector where the k-th entry indicates whether the triggering origin domain matches the k-th domain. The ranking is obtained from the external csv file.",
+			"function": "feature_top_t_o_domain",
+			"setup": "setup_top_t_o_domain",
+			"source": "resources/top_t_o_domains.csv",
+			"enabled": true,
+			"vector_size": 500,
+			"args": {}
+		},
+		{
+			"name": "third_party",
+			"desc": "Binary indicator of whether the pixel is (1.0) or is not (0.0) third party. Third party here means domain of website is not equal to domain of image loaded.",
+			"function": "feature_is_third_party",
+			"enabled": true,
+			"vector_size": 1,
+			"args": {}
+		},
+		{
+			"name": "has_query",
+			"desc": "Binary indicator of whether the pixel/ image has any query parameters in the url, 1 indicates yes, 0 indicates no",
+			"function": "feature_has_query_param",
+			"enabled": true,
+			"vector_size": 1,
+			"args": {}
+		},
+		{
+			"name": "is_1x1",
+			"desc": "Binary indicator whether the image has size 1x1 or bigger",
+			"function": "feature_is_1x1",
+			"enabled": true,
+			"vector_size": 1,
+			"args": {}
+		},
+		{
+			"name": "format",
+			"desc": "format in which the image is stored, e.g. GIF, PNG, one hot encoding. does not represent a ranking",
+			"function": "feature_format",
+			"setup": "setup_format",
+			"source": "resources/format.csv",
+			"enabled": true,
+			"vector_size": 9,
+			"args": {}
+		},
+		{
+			"name": "mode",
+			"desc": "mode of the image, one hot encoding. Does not represent a ranking",
+			"function": "feature_mode",
+			"setup": "setup_mode",
+			"source": "resources/mode.csv",
+			"enabled": true,
+		        "vector_size": 8,
+			"args": {}
+		},
+		{
+			"name": "header_fields",
+			"desc": "gives presence (1) or absence of four header fields which are not always present: Cookie, Referer, Origin, Alt-Used in that order",
+			"function": "feature_header_fields",
+			"enabled": true,
+			"vector_size": 4,
+			"args": {}
+		},
+		{
+			"name": "size",
+			"desc": "dimension of the image in nr of pixels, wxh",
+			"function": "feature_size",
+			"enabled": true,
+			"vector_size": 2,
+			"args": {}
+		},
+		{
+			"name": "url_length",
+			"desc": "first nr of characters in path, second nr of characters in query part of url, third: nr of query param",
+			"function": "feature_url_length",
+			"enabled": true,
+			"vector_size": 3,
+			"args": {}
+		},
+		{
+			"name": "header_length",
+			"desc": "nr of characters in headers",
+			"function": "feature_header_length",
+			"enabled": true,
+			"vector_size": 1,
+			"args": {}
+		},
+		{
+                        "name": "transparency",
+                        "desc": "value of alpha channel",
+                        "function": "feature_transparency",
+                        "enabled": true,
+                        "vector_size": 1,
+                        "args": {}
+                },
+                {
+                        "name": "colour",
+                        "desc": "colour of the first pixel in RGB.",
+                        "function": "feature_colour",
+                        "enabled": true,
+                        "vector_size": 3,
+                        "args": {}
+                },
+	        {
+                        "name": "s_entropy_url",
+                        "desc": "Ordinal feature. Shannon entropy of url, i.e. how random the url including all parameters looks",
+                        "function": "feature_shannon_entropy_url",
+                        "enabled": true,
+                        "vector_size": 1,
+                        "args": {}
+                },
+                {
+                        "name": "s_entropy_headers",
+                        "desc": "Ordinal feature. Shannon entropy of headers. Headers are included as a string in the sql for http-request.",
+                        "function": "feature_shannon_entropy_headers",
+                        "enabled": true,
+                        "vector_size": 1,
+                        "args": {}
+                },
+		{
+			"name": "compressed_url",
+			"desc": "Ordinal feature, measures entropy of url in a different way to Shannons entropy",
+			"function": "feature_compressed_url",
+			"enabled": true,
+			"vector_size": 2, 
+			"args": {}
+		},
+		{
+			"name": "compressed_header",
+			"desc": "Ordinal feature, measures entropy of headers",
+			"function": "feature_compressed_headers",
+			"enabled": true,
+			"vector_size": 2,
+			"args": {}
+		},
+		{
+			"name": "is_blocked",
+			"desc": "binary indicator whether the url for the pixel would get blocked by EasyPrivacy and EasyList filter list, respectively",
+			"function": "feature_is_blocked",
+			"enabled": true,
+			"vector_size": 2,
+			"args":{}
+		}
+
+	]
+}
