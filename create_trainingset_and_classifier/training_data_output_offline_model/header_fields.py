@@ -1,29 +1,10 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
-Input JSON structure:
-    [
-     "pixel_id_1": {
-            "visit_id": "<visit_id>",
-            "request_id": "<request_id>",
-            "name": "<name>",
-            "url": "<url>",
-            "first_party_domain": "<site_url>",
-            "label": [0-3],
-            "triggering_origin": "<triggering_origin>",
-            "headers": "<headers>",
-            "img_format": img_data[0],
-            "img_size": "(width, height)"
-            "img_mode": img_data[2],
-            "img_colour": "(r,g,b,alpha)",
-            "id": "<id>,
-            "matched": "1/0",
-            "moved": "1/0"
-      },
-      "pixel_id_2": {
-      ...
-      },
-      ...
-    ]
+Calculates how often each header field occurs in the dataset and which header fields occur (based on this we added
+presence absence of four header fields, which are not always present, to the features extraction).
 
+It also produces some plots on colour, entropy, transparency distribution in the different classes.
 """
 
 import json
@@ -47,6 +28,7 @@ def shannon_entropy(text: str) -> float:
 def main() -> None:
     in_pixels: Dict[str, Dict[str, Any]] = dict()
 
+    #TODO add correct path to data
     with open('10_12_2021_13_40.json') as fd:
         in_pixels = json.load(fd)
     print(f"Nr of samples loaded: {len(in_pixels)}")

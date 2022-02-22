@@ -1,30 +1,9 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
-Input JSON structure:
-    [
-     "pixel_id_1": {
-            "visit_id": "<visit_id>",
-            "request_id": "<request_id>",
-            "name": "<name>",
-            "url": "<url>",
-            "first_party_domain": "<site_url>",
-            "label": [0-3],
-            "triggering_origin": "<triggering_origin>",
-            "headers": "<headers>",
-            "img_format": img_data[0],
-            "img_size": "(width, height)"
-            "img_mode": img_data[2],
-            "img_colour": "(r,g,b,alpha)",
-            "id": "<id>,
-            "matched": "1/0",
-            "moved": "1/0"
-      },
-      "pixel_id_2": {
-      ...
-      },
-      ...
-    ]
+To answer (partially) the question whether there are large pixels (larger than 1x1).
 
-
+counts how many samples are matched to a consent declaration and larger than 1x1, specifically also counts the pinkgellac ones as these stem from missmatching (see thesis, 5.3.1), counts some common 2x2 pixels.
 """
 
 import json

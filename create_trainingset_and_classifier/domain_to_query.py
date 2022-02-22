@@ -1,31 +1,12 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
-Input JSON structure:
-    [
-     "pixel_id_1": {
-            "visit_id": "<visit_id>",
-            "request_id": "<request_id>",
-            "name": "<name>",
-            "url": "<url>",
-            "first_party_domain": "<site_url>",
-            "label": [0-3],
-            "triggering_origin": "<triggering_origin>",
-            "headers": "<headers>",
-            "img_format": img_data[0],
-            "img_size": "(width, height)"
-            "img_mode": img_data[2],
-            "img_colour": "(r,g,b,alpha)",
-            "id": "<id>,
-            "matched": "1/0",
-            "moved": "1/0"
-      },
-      "pixel_id_2": {
-      ...
-      },
-      ...
-    ]
+This script returns an overview of netlocs that use either a path piece or a query parameter, and how often they occur in the data set.
+This was used to assess how general the important features are.
+for example path piece "collect" is used by Google-Analytics and around 50 other netlocs.
 
-mode is one of query, path 
-query is the value we want to ask about
+mode is one of query (for query parameters), or path (for path pieces)
+query is the value we want to ask about (a string)
 
 Usage:
     domain_to_query.py <mode> <query>

@@ -1,4 +1,5 @@
-#todo remove uncomment at the end
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
 Moves pixels from 9 very common netlocs (e.g. Facebook, Google Analytics) from necessary and functional to the correct class
 These 10 were choosen based on having a high ranking (low rank nr) in the top domains list and they are commonly found 

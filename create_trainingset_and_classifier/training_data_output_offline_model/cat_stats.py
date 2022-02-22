@@ -1,3 +1,5 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
 calculates how many training samples are per category
 

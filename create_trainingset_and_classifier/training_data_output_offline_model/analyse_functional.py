@@ -1,3 +1,11 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
+
+"""
+prints all functional samles to the console to be analysed manually, except for facebook and google.com, as those are
+definitely not functional.
+
+"""
 import json
 from typing import List, Dict, Any, Tuple
 from collections import Counter
@@ -9,6 +17,7 @@ def main() -> None:
     in_pixels: Dict[str, Dict[str, Any]] = dict()
     out_pixels: Dict[str, Dict[str, Any]] = dict()
 
+    #TODO add  correct path to training data file
     with open('first_filter.json') as fd:
         in_pixels = json.load(fd)
     print(f"Nr of samples loaded: {len(in_pixels)}")

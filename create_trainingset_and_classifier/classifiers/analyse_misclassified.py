@@ -3,7 +3,8 @@
 """
 prints the domain number as in the resource ranking of samples in necessary which are most commonly misclassified from the 
 500 top domains, plus how often they are misclassified. 
-This was used to decide which domains to move (see thesis appendix for the decision)
+This was used to decide which domains to move (see thesis appendix for the decision), these were then reclassified in 
+training_data_output_offline/reclassify.py
 """
 
 from scipy.sparse import csr_matrix

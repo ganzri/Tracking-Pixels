@@ -7,19 +7,21 @@ First step: create resources and json training sample file from SQL tables
 * [image_features.py] to create the resource tables for image format and mode (though it just prints them, one has to manually add them to the resource folder)
 * [create_trainingset_online.py] first step of extracting the training samples from the SQL database, outputs a json to be used by its offline equivalent (see next)
 * [create_trainingset_offline_model.py] takes the output of above, and adds the information from the HTTP response and LevelDB (both take a long time, that is why they are separat)
-* [cat_stats.py] can be used to get some stats on how many training samples per category the training sample json contains.
 
-Second step: create sparse matrix representation of the training samples to be used by the classifier
+Second step: analyse outcome of creating training set, reclassify, see folder training_data_output_offline
+
+Third step: create sparse matrix representation of the training samples to be used by the classifier
 * [training_validation_split.py] split the json into training and validation set. This is only needed for the next steps, if one only wants to train the model this is not needed. 
 * [prepare_training_data.py] creates the sparse matrix representation of the samples. Uses scripts in the folder feature_extraction, and the resources.
 
-Third step: see folder classifier
+Fourth step: train classifier, see folder classifier
 
-Fourth step: analyse the outcome.
+Fifth step: analyse the outcome.
 * [analyse.py] prints samples of interest as stored in a json to the console together with the decisions by filter lists (which list would block it based on what rule)
 * [analyse_gt_aa_nb.py] similar to analyse, but removes overly common samples, used for the bigger datasets to analyse
 * [figure_mismatch.py] plots figure 5.3 of thesis.
 * [in_necessary.py] calculates how many training samples from a given piece of url are found in the necessary category.
+* [domain_to_query.py] This script returns an overview of netlocs that use either a given path piece or a query parameter.
 
 Folders:
 * [abp_blocklist_parser] code from (https://github.com/englehardt/abp-blocklist-parser) Copyright © 2018 Steven Englehardt and other contributors; This is used to query the filter lists, whether they would block a URL
