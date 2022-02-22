@@ -1,9 +1,7 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
-calculates how many training samples are per category
-list, which easylist to use
-
-
-
+Prints the samples in the json stored at <data_path> to the console, to be manually analysed. Adds details on the filter list decision (which list would block it, based on what rule)
 Usage:
     analyse.py <data_path> 
 """
@@ -58,9 +56,9 @@ def main() -> None:
 
     i = 1
     for k in in_pixels:
-        print(i)
+        print(i) #for convenience, this nr has not other significance
         i += 1
-        print(k)
+        print(k) #global key of this sample
         print(in_pixels[k])
         print("\n")
         sample = in_pixels[k]

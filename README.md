@@ -6,7 +6,12 @@
 * [License](#license)
 
 ## Description
+This repository contains code developed as part of a Bachelor Thesis. We collected tracking pixels and images together with their purpose labels from websites with detailed consent notices. Using this dataset we trained an XGBoost model to predict purposes, and compared classifications by the model, the consent declarations, and the filter lists.
 
+For the data collection the webcrawler from Dino Bollinger was used, which can be found here:
+(https://github.com/dibollinger/CookieBlock-Consent-Crawler)
+
+This repository contains the scripts used to prepare the data for the classifier, train the classifier and conduct aditional analysis.
 
 ## Repository Contents
 The order in which the subfolders are presented follows the order in which they would be used.

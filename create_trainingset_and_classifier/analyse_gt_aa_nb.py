@@ -1,8 +1,14 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
-calculates how many training samples are per category
-list, which easylist to use
+Similar to analyse but to be used with the larger (200, or all) data set, but because track.hubspot.com and some others are very, very common in this data set, they are filtered out. This is just for convenience as they have been dealt with in the 20 samples set.
+Prints the samples in the json to the console, to be manually analysed. Adds details on the filter list decision (which list would block it, based on what rule)
 
+additionally compares whether the two data sets differe (this is a very rough estimate of their differing)
 
+<gt_data> the actual data one wants to analyse: ground truth vs blocked or not
+<pred_data> the same comparison but predicted vs blocked or not
+e.g. if gt_data is gt_aa_not_blocked.json then pred_data should be pred_aa_not_blocked.json
 
 Usage:
     analyse.py <gt_data> <pred_data>

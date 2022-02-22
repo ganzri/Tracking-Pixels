@@ -1,3 +1,5 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
 Script to construct different lookup tables of rankings. For each ranking it collects all the possible values (e.g. different names)
 and counts how often they occur in the dataset. It then sorts the values by how often they occur, starting with the most common value

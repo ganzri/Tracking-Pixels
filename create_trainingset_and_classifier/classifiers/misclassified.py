@@ -1,5 +1,7 @@
+# Copyright (C) 2022 Rita Ganz, ETH Zürich, Information Security Group
+# Released under the MIT License
 """
-Get misclassified samples from the validation split and check why they are misclassified by loading them from the original json
+Get misclassified samples from the validation split (ie. after cross_validation) and the original training sample json, and output the misclassified samples to a json, this could then be used to  check why they are misclassified.
 
 validation matrix is produced by the xgb_train.py, so is softprob_pred, data refers to the original json before the feature extraction
 
