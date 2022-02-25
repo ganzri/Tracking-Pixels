@@ -24,7 +24,7 @@ Fifth step: analyse the outcome.
 * [domain_to_query.py] This script returns an overview of netlocs that use either a given path piece or a query parameter.
 
 Folders:
-* [abp_blocklist_parser] code from (https://github.com/englehardt/abp-blocklist-parser) Copyright © 2018 Steven Englehardt and other contributors; This is used to query the filter lists, whether they would block a URL
+* [abp_blocklist_parser] code from (https://github.com/englehardt/abp-blocklist-parser) Copyright © 2018 Steven Englehardt and other contributors; This is used to query the filter lists, whether they would block a URL. This folder also contains whole_list.txt the EasyList as of 27.01.2022 and easyprivacy.txt the EasyPrivacy list as of 28.01.2022, Credits  "The EasyList authors (https://easylist.to/)", dual licensed under the GNU General Public License version 3 of the License, and Creative Commons Attribution-ShareAlike 3.0 Unported.
 * [classifier] contains code to train the classifier, some stats
 * [feature_extraction] contains the pixel_processor used by prepare_training_data and a json defining the features, plus utils. Scripts in this folder plus prepare_training_data plus the lookup tables in the folder resources are needed for the creation of sparse matrices to be used by the classifier.
 * [processed_features] will contain the output of prepare_training_data
