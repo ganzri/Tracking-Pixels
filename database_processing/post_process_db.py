@@ -1,7 +1,7 @@
 #!/bin/python3
 # Copyright (C) 2021 Dino Bollinger, ETH Zürich, Information Security Group
 # Released under the MIT License
-# modified RG
+# modified slightly by Rita Ganz
 """
 This script runs a series of SQL commands on the specified database to remove empty tables
 and add Views in order to have a better overview of the data contained within.

@@ -1,4 +1,4 @@
-#calculates mean and stdev for some measures from 5-fold CV
+#calculate mean and stdev for some measures from 5-fold CV
 from statistics import mean, stdev
 
 ##change to values reported by CV:
